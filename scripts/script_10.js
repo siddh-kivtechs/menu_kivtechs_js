@@ -11,9 +11,10 @@ const MenuSection = (props) => {
             React.createElement("span", { className: "menu-section-title-text" }, props.title)),
         getContent()));
 };
-async function get_json(url) {
+async function getJson(url) {
   let promise = fetch(url);
-  let json_data = await promise.json();
+  let response = await promise;
+  let json_data = await response.json();
   return json_data;
 }
 let json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
