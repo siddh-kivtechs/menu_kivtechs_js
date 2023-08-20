@@ -20,8 +20,9 @@ async function get_json(url) {
 let json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
 
 const QuickNav = () => {
-    async getItems = () => {
-        return get_json(json_10_url).map((item) => {
+    const getItems = async () => {
+        const m_json=await get_json(json_10_url);
+        return m_json.map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                // React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
                 React.createElement("a", { href: item.url, className: "quick-nav-item-label" }, item.label)));
