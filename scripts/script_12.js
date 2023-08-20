@@ -1,7 +1,7 @@
 
-const url_11 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json";
+const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json";
 
-const promise = fetch(url_11);
+let promise = fetch(url_12);
 
 promise.then(function(response) {
   // The request was successful.
