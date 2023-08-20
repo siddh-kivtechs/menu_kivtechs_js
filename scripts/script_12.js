@@ -3,8 +3,9 @@ const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json
 
 
 const Tools = () => {
-    async getTools = () => {
-        return get_json(url_12).map((tool) => {
+    const getTools = async () => {
+        const k_json=await get_json(url_12);
+        return k_json.map((tool) => {
             const styles = {
                 backgroundImage: `url(${tool.image})`
             };
