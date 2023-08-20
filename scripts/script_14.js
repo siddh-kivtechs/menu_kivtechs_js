@@ -1,3 +1,16 @@
+
+const url_14 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_14.json";
+
+let promise = fetch(url_14);
+
+promise.then(function(response) {
+  // The request was successful.
+  const p_json = response.json();
+  console.log(p_json);
+}).catch(function(error) {
+  // The request failed.
+  console.log(error);
+});
 const Movies = () => {
     const getMovies = () => {
         return p_json.map((movie) => {
