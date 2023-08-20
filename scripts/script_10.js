@@ -41,7 +41,7 @@ let m_json=[{
                     url:"https://image.kivtechs.cloud/"
                 }];
 
-
+console.log(m_json);
 const QuickNav = () => {
     const getItems =  () => {
     // const getItems = async () => {
