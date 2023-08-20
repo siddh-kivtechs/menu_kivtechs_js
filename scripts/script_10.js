@@ -18,7 +18,7 @@ async function get_json(url) {
   return json_data;
 }
 let json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
-console.log(get_json(json_10_url))
+console.log(await get_json(json_10_url))
 let m_json=[{
                 id: 1,
                 label: "CHATBOT",
@@ -42,7 +42,7 @@ let m_json=[{
                     url:"https://image.kivtechs.cloud/"
                 }];
 
-console.log(m_json);
+
 const QuickNav = () => {
     const getItems =  () => {
     // const getItems = async () => {
