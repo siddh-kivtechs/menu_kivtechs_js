@@ -2,8 +2,9 @@
 const url_13 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_13.json";
 
 const Restaurants = () => {
-    async getRestaurants = () => {
-        return get_json(url_13).map((restaurant) => {
+    const getRestaurants = async () => {
+        const j_json=await get_json(url_13);
+        return j_json.map((restaurant) => {
             const styles = {
                 backgroundImage: `url(${restaurant.image})`
             };
