@@ -1,19 +1,10 @@
 const url_11 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_11.json";
 
-let promise = fetch(url_11);
 
-promise.then(function(response) {
-  // The request was successful.
-  const m_json = response.json();
-  console.log(m_json);
-}).catch(function(error) {
-  // The request failed.
-  console.log(error);
-});
 
 const Weather = () => {
     const getDays = () => {
-        return m_json.map((day) => {
+        return get_json(url_11).map((day) => {
             const getIcon = () => {
                 switch (day.weather) {
                     case WeatherType.Cloudy:
