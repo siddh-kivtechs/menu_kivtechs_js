@@ -3,8 +3,9 @@ const url_11 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_11.json
 
 
 const Weather = () => {
-    async getDays = () => {
-        return get_json(url_11).map((day) => {
+    const getDays = async () => {
+        const n_json=await get_json(url_11);
+        return n_json.map((day) => {
             const getIcon = () => {
                 switch (day.weather) {
                     case WeatherType.Cloudy:
