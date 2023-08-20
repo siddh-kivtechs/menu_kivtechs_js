@@ -43,7 +43,7 @@ let m_json=[{
 
 
 const QuickNav = () => {
-    // const getItems =  () => {
+    const getItems =  () => {
     // const getItems = async () => {
         //Temporarily removing async await 
         // const m_json=await get_json(json_10_url);
