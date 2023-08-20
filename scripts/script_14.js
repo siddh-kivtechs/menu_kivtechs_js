@@ -2,7 +2,7 @@
 const url_14 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_14.json";
 
 const Movies = () => {
-    const getMovies = () => {
+    async getMovies = () => {
         return get_json(url_14).map((movie) => {
             const styles = {
                 backgroundImage: `url(${movie.image})`
