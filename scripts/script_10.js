@@ -18,36 +18,36 @@ async function get_json(url) {
   return json_data;
 }
 let json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
-console.log(await get_json(json_10_url))
-let m_json=[{
-                id: 1,
-                label: "CHATBOT",
-                url:"https://siddh-kivtechs.github.io/menu_4/"
-            }, {
-                id: 2,
-                label: "TEXT to SPEECH",
-                url:"https://jstts1.kivtechs.cloud/"
-            }, {
-                id: 3,
-                label: "ADOBE",
-                url:"https://siddh-kivtechs.github.io/kivtechs/"
-            }, {
-                id: 4,
-                label: "OVH" ,
-                url:"https://ovh.kivtechs.cloud/"
-            },
-                {
-                    id:5,
-                    label:"image api",
-                    url:"https://image.kivtechs.cloud/"
-                }];
+//console.log(await get_json(json_10_url))
+// let m_json=[{
+//                 id: 1,
+//                 label: "CHATBOT",
+//                 url:"https://siddh-kivtechs.github.io/menu_4/"
+//             }, {
+//                 id: 2,
+//                 label: "TEXT to SPEECH",
+//                 url:"https://jstts1.kivtechs.cloud/"
+//             }, {
+//                 id: 3,
+//                 label: "ADOBE",
+//                 url:"https://siddh-kivtechs.github.io/kivtechs/"
+//             }, {
+//                 id: 4,
+//                 label: "OVH" ,
+//                 url:"https://ovh.kivtechs.cloud/"
+//             },
+//                 {
+//                     id:5,
+//                     label:"image api",
+//                     url:"https://image.kivtechs.cloud/"
+//                 }];
 
 
 const QuickNav = () => {
-    const getItems =  () => {
-    // const getItems = async () => {
+    // const getItems =  () => {
+    const getItems = async () => {
         //Temporarily removing async await 
-        // const m_json=await get_json(json_10_url);
+        const m_json=await get_json(json_10_url);
         return m_json.map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                // React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
