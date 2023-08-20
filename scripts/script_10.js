@@ -24,6 +24,7 @@ const QuickNav = () => {
     const getItems = async () => {
         //Temporarily removing async await 
         const m_json=await get_json(json_10_url);
+        console.log(m_json);
         return m_json.map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                // React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
