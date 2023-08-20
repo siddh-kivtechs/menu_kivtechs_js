@@ -11,20 +11,16 @@ const MenuSection = (props) => {
             React.createElement("span", { className: "menu-section-title-text" }, props.title)),
         getContent()));
 };
-const _json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
-let promise = fetch(_json_10_url);
+async function get_json(url) {
+  let promise = fetch(url);
+  let json_data = await promise.json();
+  return json_data;
+}
+let json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
 
-promise.then(function(response) {
-  // The request was successful.
-  const n_json= response.json();
-  // console.log(data);
-}).catch(function(error) {
-  // The request failed.
-  console.log(error);
-});
 const QuickNav = () => {
     const getItems = () => {
-        return n_json.map((item) => {
+        return get_json(json_10_url).map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                // React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
                 React.createElement("a", { href: item.url, className: "quick-nav-item-label" }, item.label)));
