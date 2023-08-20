@@ -11,7 +11,17 @@ const MenuSection = (props) => {
             React.createElement("span", { className: "menu-section-title-text" }, props.title)),
         getContent()));
 };
+const _json_10_url='https://siddh-kivtechs.github.io/menu_kivtechs_json/part_10.json';
+let promise = fetch(_json_10_url);
 
+promise.then(function(response) {
+  // The request was successful.
+  const n_json= response.json();
+  // console.log(data);
+}).catch(function(error) {
+  // The request failed.
+  console.log(error);
+});
 const QuickNav = () => {
     const getItems = () => {
         return n_json.map((item) => {
