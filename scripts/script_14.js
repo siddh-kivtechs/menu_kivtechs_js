@@ -2,8 +2,9 @@
 const url_14 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_14.json";
 
 const Movies = () => {
-    async getMovies = () => {
-        return get_json(url_14).map((movie) => {
+    const  getMovies = async () => {
+        const p_json=await get_json(url_14);
+        return p_json.map((movie) => {
             const styles = {
                 backgroundImage: `url(${movie.image})`
             };
