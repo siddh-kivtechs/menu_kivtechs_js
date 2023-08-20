@@ -1,10 +1,46 @@
 const url_11 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_11.json";
-
+let n_json=[{
+                id: 1,
+                name: "Mon",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Sunny
+            }, {
+                id: 2,
+                name: "Tues",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Sunny
+            }, {
+                id: 3,
+                name: "Wed",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Cloudy
+            }, {
+                id: 4,
+                name: "Thurs",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Rainy
+            }, {
+                id: 5,
+                name: "Fri",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Stormy
+            }, {
+                id: 6,
+                name: "Sat",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Sunny
+            }, {
+                id: 7,
+                name: "Sun",
+                temperature: N.rand(latitude,longitude),
+                weather: WeatherType.Cloudy
+            }];
 
 
 const Weather = () => {
-    const getDays = async () => {
-        const n_json=await get_json(url_11);
+    //const getDays = async () => {
+    const getDays =  () => {
+        //const n_json=await get_json(url_11);
         return n_json.map((day) => {
             const getIcon = () => {
                 switch (day.weather) {
