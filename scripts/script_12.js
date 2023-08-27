@@ -3,8 +3,8 @@ const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json
 let k_json=[{
                 icon: "fa-solid fa-adobe",
                 id: 1,
-                // image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
-                  image:"",
+            image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
+         
                 label: "ADOBE SOLUTIONS",
                 name: "ADOBE",
                 url:""
