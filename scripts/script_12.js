@@ -12,7 +12,7 @@ let k_json=[{
                 icon: "fab fa-aws",
                 id: 2,
                 image: "https://siddh-kivtechs.github.io/company_images/aws_logo_cmyk-2a9ix9v.jpg",
-                // image:"",
+            
                 label: "AMAZON WEB SERVICES",
                 name: "AWS",
                 url:""
@@ -20,7 +20,7 @@ let k_json=[{
                 icon: "fab fa-microsoft",
                 id: 3,
                 image: "https://siddh-kivtechs.github.io/company_images/azure-scaled.jpg",
-                // image:"",
+           
                 label: "MICROSOFT AZURE",
                 name: "AZURE",
                   url:""
@@ -28,7 +28,7 @@ let k_json=[{
                 icon: "fa-brands fa-cloudversify",
                 id: 4,
                 image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
-            // image:"",
+          
                 label: "OVH",
                 name: "OVH",
                   url:""
@@ -36,7 +36,7 @@ let k_json=[{
                 icon: "fas fa-boxes",
                 id: 5,
                 image: "https://siddh-kivtechs.github.io/company_images/purepng.com-ingram-micro-logologobrand-logoiconslogos-25151993953320b2j.png",
-                  // image:"",
+      
                 label: "INGRAM MICRO",
                 name: "INGRAM",
                   url:""
@@ -65,8 +65,8 @@ let k_json=[{
                 url:""
             },
              {
-                icon: "fa fa-google",
-                id: ,
+                icon: "fa ",
+                id: 9,
                 image: "https://1000logos.net/wp-content/uploads/2017/06/Samsung-Logo-2-500x281.png",
                 label: "SAMSUNG ",
                 name: "SAMSUNG",
@@ -75,7 +75,7 @@ let k_json=[{
             
             {
                 icon: "fa fa-wallet",
-                id: 9,
+                id: 10,
                   
                 image: "https://siddh-kivtechs.github.io/images_2/money-3722123_1920.png",
                 label: "PROJECT KOINS ",
@@ -84,7 +84,7 @@ let k_json=[{
             },
             {
                 icon: "fa fa-vault",
-                id: 10,
+                id: 11,
                 image: "https://siddh-kivtechs.github.io/images_2/safe-913452.jpg",
                 label: "AUTH",
                 name: "AUTH",
