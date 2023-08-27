@@ -15,7 +15,7 @@ let k_json=[{
             }, {
                 icon: "fa-solid fa-azure",
                 id: 3,
-                image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
                 label: "MICROSOFT AZURE",
                 name: "AZURE"
             }, {
@@ -33,21 +33,22 @@ let k_json=[{
             }, {
                 icon: "fa fa-google",
                 id: 6,
-                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/google-1088004.svg",
                 label: "GOOGLE CLOUD ",
                 name: "GCP"
             },
             {
                 icon: "fa fa-wallet",
                 id: 7,
-                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                  
+                image: "https://siddh-kivtechs.github.io/images_2/money-3722123.svg",
                 label: "PROJECT KOINS ",
                 name: "KOINS"
             },
             {
                 icon: "fa fa-vault",
                 id: 8,
-                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/images_2/safe-913452.jpg",
                 label: "AUTH",
                 name: "AUTH"
             }];
