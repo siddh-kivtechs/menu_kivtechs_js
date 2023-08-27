@@ -3,35 +3,40 @@ const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json
 let k_json=[{
                 icon: "fa-solid fa-adobe",
                 id: 1,
-                image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
+                // image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
+                  image:"",
                 label: "ADOBE SOLUTIONS",
                 name: "ADOBE",
                 url:""
             }, {
                 icon: "fab fa-aws",
                 id: 2,
-                image: "https://siddh-kivtechs.github.io/company_images/aws_logo_cmyk-2a9ix9v.jpg",
+                //image: "https://siddh-kivtechs.github.io/company_images/aws_logo_cmyk-2a9ix9v.jpg",
+                image:"",
                 label: "AMAZON WEB SERVICES",
                 name: "AWS",
                 url:""
             }, {
                 icon: "fa-solid fa-azure",
                 id: 3,
-                image: "https://siddh-kivtechs.github.io/company_images/azure-scaled.jpg",
+                // image: "https://siddh-kivtechs.github.io/company_images/azure-scaled.jpg",
+                image:"",
                 label: "MICROSOFT AZURE",
                 name: "AZURE",
                   url:""
             }, {
                 icon: "fa-solid fa-plane",
                 id: 4,
-                image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
+                // image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
+            image:"",
                 label: "OVH",
                 name: "OVH",
                   url:""
             }, {
                 icon: "fa-solid fa-gamepad-modern",
                 id: 5,
-                image: "https://siddh-kivtechs.github.io/company_images/purepng.com-ingram-micro-logologobrand-logoiconslogos-25151993953320b2j.png",
+                // image: "https://siddh-kivtechs.github.io/company_images/purepng.com-ingram-micro-logologobrand-logoiconslogos-25151993953320b2j.png",
+                  image:""
                 label: "INGRAM MICRO",
                 name: "INGRAM",
                   url:""
