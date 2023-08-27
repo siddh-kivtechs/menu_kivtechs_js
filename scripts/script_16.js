@@ -16,6 +16,7 @@ const Menu = () => {
                     React.createElement("span", null, "Kneogin Igmisarch Private Limited")),
                 React.createElement(Weather, null),
                 React.createElement(Restaurants, null),
+                 React.createElement(Ginel, null),
                 React.createElement(Tools, null),
                 React.createElement(Movies, null)))));
 };

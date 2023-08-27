@@ -33,26 +33,27 @@ let j_json=[{
                 image: "https://siddh-kivtechs.github.io/image/ai-generated-7829161.webp",
                 title: "Panel proejct",
             url:"https://panelproject.kivtechs.cloud/"
-            },
-            { desc: "AMAZON POLLY",
-                id :6,
-              image:"https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/11/24/polly-social-1024x512.jpg",
-                title: "AMAZON POLLY",
-                url:"https://tts-lyart-nine.vercel.app/"
-            },
-                { desc: "GCP TTS",
-                id :7,
-              image:"https://siddh-kivtechs.github.io/company_images/google-text-to-speech.png",
-                title: "GCP TTS",
-                url:"https://bard.google.com/?hl=en"
-            },
-            {
-              desc:"IBM WATSON",
-              id:8,
-              image:"https://miro.medium.com/v2/resize:fit:600/0*pBUKeJ5j2XPw8SyZ",
-              title:"IBM WATSON",
-              url:""
             }
+            // ,
+            // { desc: "AMAZON POLLY",
+            //     id :6,
+            //   image:"https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/11/24/polly-social-1024x512.jpg",
+            //     title: "AMAZON POLLY",
+            //     url:"https://tts-lyart-nine.vercel.app/"
+            // },
+            //     { desc: "GCP TTS",
+            //     id :7,
+            //   image:"https://siddh-kivtechs.github.io/company_images/google-text-to-speech.png",
+            //     title: "GCP TTS",
+            //     url:"https://bard.google.com/?hl=en"
+            // },
+            // {
+            //   desc:"IBM WATSON",
+            //   id:8,
+            //   image:"https://miro.medium.com/v2/resize:fit:600/0*pBUKeJ5j2XPw8SyZ",
+            //   title:"IBM WATSON",
+            //   url:""
+            // }
            ];
 const Restaurants = () => {
     const getRestaurants =  () => {
