@@ -36,6 +36,20 @@ let k_json=[{
                 image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
                 label: "GOOGLE CLOUD ",
                 name: "GCP"
+            },
+            {
+                icon: "fa fa-wallet",
+                id: 6,
+                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                label: "PROJECT KOINS ",
+                name: "KOINS"
+            },
+            {
+                icon: "fa fa-vault",
+                id: 6,
+                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                label: "AUTH",
+                name: "AUTH"
             }];
 
 const Tools = () => {
