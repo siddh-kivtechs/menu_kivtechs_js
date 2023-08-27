@@ -51,8 +51,7 @@ let j_json=[{
               id:8,
               image:"https://miro.medium.com/v2/resize:fit:600/0*pBUKeJ5j2XPw8SyZ",
               title:"IBM WATSON",
-              url:"https://cloud.ibm.com/registration?target=/developer/watson/launch-tool/conversation&hideTours=true&cm_sp=WatsonPlatform-WatsonPlatform-_-OnPageNavCTA-IBMWatson_Conversation-_-Watson_Developer_Website&utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=WAIWW&utm_term=20AJ5&utm_id=OnPageNav"
-            }
+              url:""
             
            ];
 const Restaurants = () => {
