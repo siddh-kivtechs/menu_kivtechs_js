@@ -36,7 +36,7 @@ let j_json=[{
             },
             { desc: "AMAZON POLLY",
                 id :6,
-              image:"https://toppng.com/free-image/amazon-polly-logo-PNG-free-PNG-Images_472467",
+              image:"https://toppng.com/uploads/preview/amazon-polly-logo-11609354807ktqw1xkfm5.png",
                 title: "AMAZON POLLY",
                 url:"https://tts-lyart-nine.vercel.app/"
             },
