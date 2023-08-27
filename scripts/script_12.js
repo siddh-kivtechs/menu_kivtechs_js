@@ -17,7 +17,7 @@ let k_json=[{
                 name: "AWS",
                 url:""
             }, {
-                icon: "fa-solid fa-azure",
+                icon: "fab fa-microsoft",
                 id: 3,
                 image: "https://siddh-kivtechs.github.io/company_images/azure-scaled.jpg",
                 // image:"",
@@ -25,7 +25,7 @@ let k_json=[{
                 name: "AZURE",
                   url:""
             }, {
-                icon: "fa-solid fa-plane",
+                icon: "fab fa-cloudfare",
                 id: 4,
                 image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
             // image:"",
