@@ -28,7 +28,7 @@ const Pin = () => {
         }
     }, [userStatus]);
     React.useEffect(() => {
-        if (pin.length === 4) {
+        if (pin.length === 6) {
             const verify = async () => {
                 try {
                     setUserStatusTo(UserStatus.VerifyingLogIn);
@@ -54,7 +54,7 @@ const Pin = () => {
         setUserStatusTo(UserStatus.LoggedOut);
     };
     const handleOnChange = (e) => {
-        if (e.target.value.length <= 4) {
+        if (e.target.value.length <= 6) {
             setPinTo(e.target.value.toString());
         }
     };
@@ -67,15 +67,17 @@ const Pin = () => {
         }
     };
     return (React.createElement("div", { id: "app-pin-wrapper" },
-        React.createElement("input", { disabled: userStatus !== UserStatus.LoggingIn && userStatus !== UserStatus.LogInError, id: "app-pin-hidden-input", maxLength: 4, ref: ref, type: "number", value: pin, onChange: handleOnChange }),
+        React.createElement("input", { disabled: userStatus !== UserStatus.LoggingIn && userStatus !== UserStatus.LogInError, id: "app-pin-hidden-input", maxLength: 6, ref: ref, type: "number", value: pin, onChange: handleOnChange }),
         React.createElement("div", { id: "app-pin", onClick: handleOnClick },
             React.createElement(PinDigit, { focused: pin.length === 0, value: pin[0] }),
             React.createElement(PinDigit, { focused: pin.length === 1, value: pin[1] }),
             React.createElement(PinDigit, { focused: pin.length === 2, value: pin[2] }),
-            React.createElement(PinDigit, { focused: pin.length === 3, value: pin[3] })),
+                            React.createElement(PinDigit, { focused: pin.length === 3, value: pin[3] }),
+                            React.createElement(PinDigit, { focused: pin.length === 4, value: pin[4] }),
+            React.createElement(PinDigit, { focused: pin.length === 5, value: pin[5] })),
         React.createElement("h3", { id: "app-pin-label" },
-            "Enter PIN (0000) ",
+            "Enter PIN (987654) ",
             getErrorText(),
-            " ",
+            " WRONG PIN  ",
             getCancelText())));
 };
