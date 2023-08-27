@@ -36,7 +36,7 @@ let k_json=[{
                 icon: "fa-solid fa-gamepad-modern",
                 id: 5,
                 // image: "https://siddh-kivtechs.github.io/company_images/purepng.com-ingram-micro-logologobrand-logoiconslogos-25151993953320b2j.png",
-                  image:""
+                  image:"",
                 label: "INGRAM MICRO",
                 name: "INGRAM",
                   url:""
