@@ -33,7 +33,7 @@ let j_json=[{
                 image: "https://siddh-kivtechs.github.io/image/ai-generated-7829161.webp",
                 title: "Panel proejct",
             url:"https://panelproject.kivtechs.cloud/"
-            }
+            },
             { desc: "AMAZON POLLY",
                 id :6,
               image:"https://toppng.com/free-image/amazon-polly-logo-PNG-free-PNG-Images_472467",
