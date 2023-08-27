@@ -44,7 +44,7 @@ let j_json=[{
                 id :7,
               image:"https://siddh-kivtechs.github.io/company_images/google-text-to-speech.png",
                 title: "GCP TTS",
-                url:"https://cloud.google.com/text-to-speech/"
+                url:"https://bard.google.com/?hl=en"
             }
             
            ];
