@@ -75,7 +75,7 @@ let k_json=[{
             {
             icon:"",
               id:10,
-              image"https://www.se.com/in/en/assets/v2/380/media/202250/SE_logo-LIO-white_header.svg",
+              image:"https://www.se.com/in/en/assets/v2/380/media/202250/SE_logo-LIO-white_header.svg",
               label:"Schneider Electric ",
               name:"Schneider Electric ",
               url:"https://www.se.com/in/en/"
