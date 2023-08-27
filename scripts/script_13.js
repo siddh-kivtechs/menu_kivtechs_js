@@ -38,7 +38,13 @@ let j_json=[{
                 id :6,
               image:"https://toppng.com/free-image/amazon-polly-logo-PNG-free-PNG-Images_472467",
                 title: "AMAZON POLLY",
-                url:""
+                url:"https://tts-lyart-nine.vercel.app/"
+            },
+                { desc: "GCP TTS",
+                id :7,
+              image:"https://v2.openhab.org/logos/googletts.png",
+                title: "GCP TTS",
+                url:"https://cloud.google.com/text-to-speech/"
             }
             
            ];
