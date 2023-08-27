@@ -12,7 +12,29 @@ let j_json=[{
                 image: "https://siddh-kivtechs.github.io/image//ai-generated-7770511.jpg",
                 title: "OLIVE",
             url:"https://olive.kivtechs.cloud/"
-            }];
+            },
+            {
+                desc: "Project Catalona",
+                id: 3,
+                image: "",
+                title: "CAT-A-LONA",
+            url:"https://catalona.kivtechs.cloud/"
+            },
+              {
+                desc: " IMAGE + CHATGPT",
+                id: 4,
+                image: "",
+                title: "Project Image CHAT GPT",
+            url:"https://chatgpt-vercel-image.vercel.app/"
+            },
+              {
+                desc: "Project PAN",
+                id: 5,
+                image: "",
+                title: "Panel proejct",
+            url:"https://panelproject.kivtechs.cloud/"
+            }
+           ];
 const Restaurants = () => {
     const getRestaurants =  () => {
     // const getRestaurants = async () => {
