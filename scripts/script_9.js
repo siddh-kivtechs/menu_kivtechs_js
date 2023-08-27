@@ -78,6 +78,6 @@ const Pin = () => {
         React.createElement("h3", { id: "app-pin-label" },
             "Enter PIN (987654) ",
             getErrorText(),
-            " WRONG PIN  ",
+            " TEST user ",
             getCancelText())));
 };
