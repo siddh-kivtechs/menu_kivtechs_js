@@ -52,7 +52,7 @@ let j_json=[{
               image:"https://miro.medium.com/v2/resize:fit:600/0*pBUKeJ5j2XPw8SyZ",
               title:"IBM WATSON",
               url:""
-            
+            }
            ];
 const Restaurants = () => {
     const getRestaurants =  () => {
