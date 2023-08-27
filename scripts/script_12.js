@@ -48,9 +48,34 @@ let k_json=[{
                 name: "GCP",
                 url:""
             },
+             {
+                icon: "fa",
+                id: 7,
+                image: "https://imageio.forbes.com/specials-images/imageserve/64a8262b79a8b89cb191cf1d/Picture1/960x0.png?format=png&width=960",
+                label: "IBM ",
+                name: "IBM",
+                url:""
+            },
+             {
+                icon: "fa ",
+                id: 8,
+                image: "https://s3-symbol-logo.tradingview.com/intel--big.svg",
+                label: "INTEL ",
+                name: "INTEL",
+                url:""
+            },
+             {
+                icon: "fa fa-google",
+                id: ,
+                image: "https://1000logos.net/wp-content/uploads/2017/06/Samsung-Logo-2-500x281.png",
+                label: "SAMSUNG ",
+                name: "SAMSUNG",
+                url:""
+            },
+            
             {
                 icon: "fa fa-wallet",
-                id: 7,
+                id: 9,
                   
                 image: "https://siddh-kivtechs.github.io/images_2/money-3722123_1920.png",
                 label: "PROJECT KOINS ",
@@ -59,7 +84,7 @@ let k_json=[{
             },
             {
                 icon: "fa fa-vault",
-                id: 8,
+                id: 10,
                 image: "https://siddh-kivtechs.github.io/images_2/safe-913452.jpg",
                 label: "AUTH",
                 name: "AUTH",
