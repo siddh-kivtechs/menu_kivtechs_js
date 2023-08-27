@@ -34,6 +34,13 @@ let j_json=[{
                 title: "Panel proejct",
             url:"https://panelproject.kivtechs.cloud/"
             }
+            { desc: "AMAZON POLLY",
+                id :6,
+              image:"https://toppng.com/free-image/amazon-polly-logo-PNG-free-PNG-Images_472467",
+                title: "AMAZON POLLY",
+                url:""
+            }
+            
            ];
 const Restaurants = () => {
     const getRestaurants =  () => {
