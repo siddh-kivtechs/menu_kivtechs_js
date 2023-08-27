@@ -69,7 +69,7 @@ const Tools = () => {
             const styles = {
                 backgroundImage: `url(${tool.image})`
             };
-            return (React.createElement("div", { key: tool.id, className: "tool-card"},
+            return (React.createElement("a", { key: tool.id, className: "tool-card",href:tool.url},
                 React.createElement("div", { className: "tool-card-background background-image", style: styles }),
                 React.createElement("div", { className: "tool-card-content" },
                     React.createElement("div", { className: "tool-card-content-header" },
