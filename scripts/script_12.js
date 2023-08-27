@@ -12,7 +12,7 @@ let k_json=[{
                 id: 2,
                 image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FsY3VsYXRvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
                 label: "AMAZON WEB SERVICES",
-                name: "AWS"
+                name: "AWS",
                 url:""
             }, {
                 icon: "fa-solid fa-azure",
