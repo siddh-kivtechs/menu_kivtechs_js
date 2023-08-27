@@ -25,7 +25,7 @@ let k_json=[{
                 name: "AZURE",
                   url:""
             }, {
-                icon: "fab fa-cloudfare",
+                icon: "fa-brands fa-cloudversify",
                 id: 4,
                 image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
             // image:"",
