@@ -1,7 +1,7 @@
 
 const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json";
 let k_json=[{
-                icon: "fa-solid fa-adobe",
+                icon: "fas fa-photo-video",
                 id: 1,
             image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
          
