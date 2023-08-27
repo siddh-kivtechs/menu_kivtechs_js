@@ -9,28 +9,28 @@ let j_json=[{
             }, {
                 desc: "OLIVIY-A",
                 id: 2,
-                image: "https://siddh-kivtechs.github.io/image//ai-generated-7770511.jpg",
+                image: "https://siddh-kivtechs.github.io/image/ai-generated-7770511.jpg",
                 title: "OLIVE",
             url:"https://olive.kivtechs.cloud/"
             },
             {
                 desc: "Project Catalona",
                 id: 3,
-                image: "",
+                image: "https://siddh-kivtechs.github.io/image/woman-7672506.webp",
                 title: "CAT-A-LONA",
             url:"https://catalona.kivtechs.cloud/"
             },
               {
                 desc: " IMAGE + CHATGPT",
                 id: 4,
-                image: "",
+                image: "https://siddh-kivtechs.github.io/image/drawing-7887719.webp",
                 title: "Project Image CHAT GPT",
             url:"https://chatgpt-vercel-image.vercel.app/"
             },
               {
                 desc: "Project PAN",
                 id: 5,
-                image: "",
+                image: "https://siddh-kivtechs.github.io/image/drawing-7887732.webp",
                 title: "Panel proejct",
             url:"https://panelproject.kivtechs.cloud/"
             }
