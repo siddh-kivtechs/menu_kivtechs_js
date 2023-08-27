@@ -72,10 +72,17 @@ let k_json=[{
                 name: "SAMSUNG",
                 url:""
             },
-            
+            {
+            icon:"",
+              id:10,
+              image"https://www.se.com/in/en/assets/v2/380/media/202250/SE_logo-LIO-white_header.svg",
+              label:"Schneider Electric ",
+              name:"Schneider Electric ",
+              url:"https://www.se.com/in/en/"
+            },
             {
                 icon: "fa fa-wallet",
-                id: 10,
+                id: 11,
                   
                 image: "https://siddh-kivtechs.github.io/images_2/money-3722123_1920.png",
                 label: "PROJECT KOINS ",
@@ -84,7 +91,7 @@ let k_json=[{
             },
             {
                 icon: "fa fa-vault",
-                id: 11,
+                id: 12,
                 image: "https://siddh-kivtechs.github.io/images_2/safe-913452.jpg",
                 label: "AUTH",
                 name: "AUTH",
