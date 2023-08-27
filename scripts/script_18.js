@@ -1,22 +1,29 @@
 //splitting script 13 into chatbot script 13 and TTS script 18
 let y_json=[{ desc: "AMAZON POLLY",
-                id :6,
+                id :1,
               image:"https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/11/24/polly-social-1024x512.jpg",
                 title: "AMAZON POLLY",
                 url:"https://tts-lyart-nine.vercel.app/"
             },
                 { desc: "GCP TTS",
-                id :7,
+                id :2,
               image:"https://siddh-kivtechs.github.io/company_images/google-text-to-speech.png",
                 title: "GCP TTS",
                 url:"https://bard.google.com/?hl=en"
             },
             {
               desc:"IBM WATSON",
-              id:8,
+              id:3,
               image:"https://miro.medium.com/v2/resize:fit:600/0*pBUKeJ5j2XPw8SyZ",
               title:"IBM WATSON",
               url:""
+            }
+                   {
+              desc:"JS TTS",
+              id:4,
+              image:"https://websta.me/wp-content/uploads/2021/06/text-to-speech-apps-1-2048x1212.jpg",
+              title:"JS TTS",
+              url:"https://jstts1.kivtechs.cloud/"
             }
            ];
 
