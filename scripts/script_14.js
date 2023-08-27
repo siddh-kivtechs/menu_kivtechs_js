@@ -26,6 +26,19 @@ let p_json=[{
             
                 image: "https://siddh-kivtechs.github.io/image/artificial-intelligence-7965011.jpg",
                 title: "LLM"
+            },
+            {
+                desc: " LLM",
+                id: 5,
+                image: "https://siddh-kivtechs.github.io/image//artificial-intelligence-7965009.jpg",
+                title: "Our Take on LLM based on NLP with CHATGPT as teacher",
+            url:""
+            }, {
+                desc: "VIJU",
+                id: 6,
+                image: "https://siddh-kivtechs.github.io/image/ai-generated-7963061.jpg",
+                title: "Virtual Assistant",
+            url:""
             }];
 const Movies = () => {
      const  getMovies =  () => {
