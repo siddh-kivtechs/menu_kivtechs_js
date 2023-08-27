@@ -3,35 +3,35 @@ const url_12 = "https://siddh-kivtechs.github.io/menu_kivtechs_json/part_12.json
 let k_json=[{
                 icon: "fa-solid fa-adobe",
                 id: 1,
-                image: "https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/Adobe-Logo.png",
                 label: "ADOBE SOLUTIONS",
                 name: "ADOBE",
                 url:""
             }, {
                 icon: "fab fa-aws",
                 id: 2,
-                image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FsY3VsYXRvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/aws_logo_cmyk-2a9ix9v.jpg",
                 label: "AMAZON WEB SERVICES",
                 name: "AWS",
                 url:""
             }, {
                 icon: "fa-solid fa-azure",
                 id: 3,
-                image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwY2hhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/azure-scaled.jpg",
                 label: "MICROSOFT AZURE",
                 name: "AZURE",
                   url:""
             }, {
                 icon: "fa-solid fa-plane",
                 id: 4,
-                image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycGxhbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/ovh.png",
                 label: "OVH",
                 name: "OVH",
                   url:""
             }, {
                 icon: "fa-solid fa-gamepad-modern",
                 id: 5,
-                image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dmlkZW8lMjBnYW1lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                image: "https://siddh-kivtechs.github.io/company_images/purepng.com-ingram-micro-logologobrand-logoiconslogos-25151993953320b2j.png",
                 label: "INGRAM MICRO",
                 name: "INGRAM",
                   url:""
