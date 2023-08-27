@@ -41,7 +41,7 @@ let k_json=[{
                 icon: "fa fa-wallet",
                 id: 7,
                   
-                image: "https://siddh-kivtechs.github.io/images_2/money-3722123.svg",
+                image: "https://siddh-kivtechs.github.io/images_2/money-3722123_1920.png",
                 label: "PROJECT KOINS ",
                 name: "KOINS"
             },
