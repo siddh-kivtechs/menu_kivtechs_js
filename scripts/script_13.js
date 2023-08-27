@@ -36,13 +36,13 @@ let j_json=[{
             },
             { desc: "AMAZON POLLY",
                 id :6,
-              image:"https://toppng.com/uploads/preview/amazon-polly-logo-11609354807ktqw1xkfm5.png",
+              image:"https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/11/24/polly-social-1024x512.jpg",
                 title: "AMAZON POLLY",
                 url:"https://tts-lyart-nine.vercel.app/"
             },
                 { desc: "GCP TTS",
                 id :7,
-              image:"https://v2.openhab.org/logos/googletts.png",
+              image:"https://siddh-kivtechs.github.io/company_images/google-text-to-speech.png",
                 title: "GCP TTS",
                 url:"https://cloud.google.com/text-to-speech/"
             }
