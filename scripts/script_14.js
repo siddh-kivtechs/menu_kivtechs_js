@@ -36,11 +36,13 @@ let p_json=[{
                 id: 5,
                 image: "https://siddh-kivtechs.github.io/image//artificial-intelligence-7965009.jpg",
                 title: "Our Take on LLM based on NLP with CHATGPT as teacher",
+            icon:"fa-solid fa-person-dress-fairy",
             url:""
             }, {
                 desc: "VIJU",
                 id: 6,
                 image: "https://siddh-kivtechs.github.io/image/ai-generated-7963061.jpg",
+              icon:"fa-duotone fa-screen-users",
                 title: "Virtual Assistant",
             url:""
             }];
