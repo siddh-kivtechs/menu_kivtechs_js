@@ -49,7 +49,7 @@ let k_json=[{
                 url:""
             },
              {
-                icon: "fa",
+                icon: "fa-solid fa-laptop",
                 id: 7,
                 image: "https://imageio.forbes.com/specials-images/imageserve/64a8262b79a8b89cb191cf1d/Picture1/960x0.png?format=png&width=960",
                 label: "IBM ",
@@ -57,7 +57,7 @@ let k_json=[{
                 url:""
             },
              {
-                icon: "fa ",
+                icon: "fa-solid fa-microchip",
                 id: 8,
                 image: "https://s3-symbol-logo.tradingview.com/intel--big.svg",
                 label: "INTEL ",
@@ -65,7 +65,7 @@ let k_json=[{
                 url:""
             },
              {
-                icon: "fa ",
+                icon: "fa-solid fa-mobile",
                 id: 9,
                 image: "https://1000logos.net/wp-content/uploads/2017/06/Samsung-Logo-2-500x281.png",
                 label: "SAMSUNG ",
@@ -73,7 +73,7 @@ let k_json=[{
                 url:""
             },
             {
-            icon:"",
+            icon:"fa-solid fa-bolt",
               id:10,
               image:"https://www.se.com/in/en/assets/v2/380/media/202250/SE_logo-LIO-white_header.svg",
               label:"Schneider Electric ",
