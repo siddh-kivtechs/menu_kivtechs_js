@@ -3,7 +3,7 @@ let y_json=[
                    {
               desc:"Text to Speech  SIMPLE",
               id:1,
-              image:"https://websta.me/wp-content/uploads/2021/06/text-to-speech-apps-1-2048x1212.jpg",
+              image:"https://siddh-kivtechs.github.io/image/man-1600948_1920.png",
               title:"TTS simple",
               url:"https://siddh-kivtechs.github.io/tts_base_1/"
             },
@@ -11,7 +11,7 @@ let y_json=[
                    {
               desc:"Text to Speech  STORY BOOK",
               id:2,
-              image:"https://websta.me/wp-content/uploads/2021/06/text-to-speech-apps-1-2048x1212.jpg",
+              image:"https://siddh-kivtechs.github.io/image/storytelling-4203628.jpg",
               title:"TTS story book",
               url:"https://siddh-kivtechs.github.io/tts_story_book/"
             }
