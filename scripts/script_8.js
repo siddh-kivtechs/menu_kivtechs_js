@@ -5,7 +5,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon
     fetch(url)
 .then((response) => response.json())
 .then((data) => {
- 
+ data
 });
    const [temperature] = React.useState(data.main.temp);
     return (React.createElement("span", { className: "weather" },
