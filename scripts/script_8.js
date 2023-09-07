@@ -6,7 +6,7 @@ fetch(url)
 .then(async (response) => {
   const data = await response.json();
 });
-const [temperature] = React.useState(data.main.temp);
+const [temperature] = React.useState(32);
     return (React.createElement("span", { className: "weather" },
         React.createElement("i", { className: "weather-type", className: "fa-duotone fa-sun" }),
         React.createElement("span", { className: "weather-temperature-value" }, temperature),
