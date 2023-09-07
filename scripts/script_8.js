@@ -1,6 +1,13 @@
 
 const WeatherSnap = () => {
-    const [temperature] = React.useState(N.rand(latitude,longitude));
+    const API_key='435bba04efeadbab3e1ef6d796a0df6b';
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_key}&units=metric`;
+    fetch(url)
+.then((response) => response.json())
+.then((data) => {
+  const [temperature] = React.useState(data.main.temp);
+});
+  
     return (React.createElement("span", { className: "weather" },
         React.createElement("i", { className: "weather-type", className: "fa-duotone fa-sun" }),
         React.createElement("span", { className: "weather-temperature-value" }, temperature),
