@@ -6,7 +6,8 @@ fetch(url)
 .then(async (response) => {
   const data = await response.json();
 });
-   const [temperature] = React.useState(N.rand(23,32));
+   // const [temperature] = React.useState(N.rand(23,32));
+     const temperature = React.useState(N.rand(23,32));
     console.log('temperature is '+temperature);
     console.log(typeof(temperature));
     return (React.createElement("span", { className: "weather" },
