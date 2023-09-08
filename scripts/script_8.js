@@ -1,11 +1,6 @@
 
 const WeatherSnap = () => {
-    const API_key='435bba04efeadbab3e1ef6d796a0df6b';
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_key}&units=metric`;
-fetch(url)
-.then(async (response) => {
-  const data = await response.json();
-});
+
    // const [temperature] = React.useState(N.rand(23,32));
     const [temperature] = React.useState(32);
  
