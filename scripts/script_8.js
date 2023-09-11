@@ -3,7 +3,7 @@ const WeatherSnap = () => {
     React.useEffect(() => {
        const k='ODAxYTVlMDU4YzQ1YzE3NjZiOWNlMmQ0MTM1OTE4NWQ=';
       const key=atob(k);
-        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=metric`;
         // Use async-await syntax to fetch the data
         const fetchData = async () => {
             try {
@@ -22,7 +22,7 @@ const WeatherSnap = () => {
     return (React.createElement("span", { className: "weather" },
         React.createElement("i", { className: "weather-type", className: "fa-duotone fa-sun" }),
         React.createElement("span", { className: "weather-temperature-value" }, temperature),
-        React.createElement("span", { className: "weather-temperature-unit" }, "\u00B0F")));
+        React.createElement("span", { className: "weather-temperature-unit" }, "\u00B0C")));
 };
 const Reminder = () => {
     return (React.createElement("div", { className: "reminder" },
