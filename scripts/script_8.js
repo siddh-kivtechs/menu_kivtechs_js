@@ -1,8 +1,8 @@
 const WeatherSnap = () => {
     const [temperature, setTemperature] = React.useState(32);
     React.useEffect(() => {
-       const k='ODAxYTVlMDU4YzQ1YzE3NjZiOWNlMmQ0MTM1OTE4NWQ=';
-      const key=atob(k);
+      
+      const key=atob('ODAxYTVlMDU4YzQ1YzE3NjZiOWNlMmQ0MTM1OTE4NWQ=');
         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=metric`;
         // Use async-await syntax to fetch the data
         const fetchData = async () => {
