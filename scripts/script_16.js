@@ -14,7 +14,7 @@ const Menu = () => {
                 React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://www.youtube.com/@kaushikneogi8863", target: "_blank" },
                     React.createElement("i", { className: "fa-brands fa-youtube" }),
                     React.createElement("span", null, "Kneogin Igmisarch Private Limited")),
-                React.createElement(Weather, null),
+                React.createElement(Projects, null),
                 React.createElement(Restaurants, null),
                  React.createElement(Ginel, null),
                 React.createElement(Tools, null),

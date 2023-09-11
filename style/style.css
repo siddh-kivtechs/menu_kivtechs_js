@@ -426,6 +426,55 @@ body input, body h1, body h3, body a, body span {
   color: #42a5f5;
   font-size: 0.9em;
 }
+/* added css for projects  */
+
+#app #projects-section .menu-section-content {
+  display: flex;
+  gap: 1em;
+}
+#app #projects-section .menu-section-content .project-card {
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  height: 14vw;
+  max-height: 240px;
+  position: relative;
+  transition: transform 250ms;
+  width: 25%;
+}
+#app #projects-section .menu-section-content .project-card:hover {
+  transform: translateY(-5px);
+}
+#app #projects-section .menu-section-content .project-card:hover .project-card-content .project-card-content-items {
+  margin-bottom: 30px;
+}
+#app #projects-section .menu-section-content .project-card .project-card-content {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+#app #projects-section .menu-section-content .project-card .project-card-content .project-card-content-items {
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  transition: margin 250ms;
+}
+#app #projects-section .menu-section-content .project-card .project-card-content .project-card-content-items .project-card-title {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+#app #projects-section .menu-section-content .project-card .project-card-content .project-card-content-items .project-card-desc {
+  color: #42a5f5;
+  font-size: 0.9em;
+}
+
+
+/* css for weather */
 #app #weather-section .menu-section-content {
   display: flex;
   gap: 1em;
@@ -775,6 +824,15 @@ body input, body h1, body h3, body a, body span {
     position: relative;
     width: calc(50% - 0.5em);
   }
+    #app #app-menu #app-menu-content-wrapper #app-menu-content #projects-section .menu-section-content {
+    flex-wrap: wrap;
+  }
+  #app #app-menu #app-menu-content-wrapper #app-menu-content #projects-section .menu-section-content .project-card {
+    height: 30vw;
+    max-height: 300px;
+    position: relative;
+    width: calc(50% - 0.5em);
+  }
   #app #app-menu #app-menu-content-wrapper #app-menu-content #tools-section .menu-section-content {
     flex-wrap: wrap;
   }
@@ -795,6 +853,14 @@ body input, body h1, body h3, body a, body span {
     flex-direction: column;
   }
   #app #app-menu #app-menu-content-wrapper #app-menu-content #restaurants-section .menu-section-content .restaurant-card {
+    height: 40vw;
+    position: relative;
+    width: 100%;
+  }
+    #app #app-menu #app-menu-content-wrapper #app-menu-content #projects-section .menu-section-content {
+    flex-direction: column;
+  }
+  #app #app-menu #app-menu-content-wrapper #app-menu-content #projects-section .menu-section-content .project-card {
     height: 40vw;
     position: relative;
     width: 100%;
