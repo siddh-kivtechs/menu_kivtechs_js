@@ -1,13 +1,28 @@
-
 const WeatherSnap = () => {
-
-   // const [temperature] = React.useState(N.rand(23,32));
-    const [temperature] = React.useState(32);
- 
+    const [temperature, setTemperature] = React.useState(32);
+    React.useEffect(() => {
+       const k='ODAxYTVlMDU4YzQ1YzE3NjZiOWNlMmQ0MTM1OTE4NWQ=';
+      const key=atob(k);
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+        // Use async-await syntax to fetch the data
+        const fetchData = async () => {
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                // Update the temperature state with the data
+                setTemperature(data.main.temp);
+            }
+            catch (error) {
+                console.error(error);
+            }
+        };
+        // Call the fetchData function
+        fetchData();
+    }, []); // Pass an empty array as dependency to run only once
     return (React.createElement("span", { className: "weather" },
         React.createElement("i", { className: "weather-type", className: "fa-duotone fa-sun" }),
         React.createElement("span", { className: "weather-temperature-value" }, temperature),
-        React.createElement("span", { className: "weather-temperature-unit" }, "\u00B0C")));
+        React.createElement("span", { className: "weather-temperature-unit" }, "\u00B0F")));
 };
 const Reminder = () => {
     return (React.createElement("div", { className: "reminder" },
