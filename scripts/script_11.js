@@ -27,5 +27,5 @@ const Weather = () => {
                     React.createElement("span", { className: "day-name" }, day.name))));
         });
     };
-    return (React.createElement(MenuSection, { icon: "fa-solid fa-sun", id: "weather-section", scrollable: true, title: "How's it look out there?" }, getDays()));
+    return (React.createElement(MenuSection, { icon: "fa-solid fa-sun", id: "weather-section", scrollable: true, title: " Sister PROJECT" }, getDays()));
 };
