@@ -2,28 +2,28 @@
 let n_json=[{
                 desc: "MAIN project",
                 id: 1,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/KNEOGIN_IGMISARCH_v_0.png",
                 title: "kneoginigmisarch.",
                 url: "https://kneoginigmisarch.co.in/"
             },
             {
                 desc: "KNEO LEARN ",
                 id: 2,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/KNEOGIN_IGMISARCH_v_0.png",
                 title: "KNEO LEARN .",
                 url: "https://kneo-learn.cloud/"
             },
                {
                 desc: "KAEMM",
                 id: 3,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/kaemm.cloud.png",
                 title: "KAEMM .",
                 url: "https://kaemm.cloud/"
             },
                {
                 desc: "KNEO EMM ",
                 id: 4,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/kneo-emm.cloud.png",
                 title: "KNEO EMM.",
                 url: "https://kneo-emm.cloud/"
             }
@@ -31,21 +31,21 @@ let n_json=[{
                {
                 desc: "I-PROVISION",
                 id: 5,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/i-provision.cloud.png",
                 title: "I-PROVISION.",
                 url: "https://i-provision.cloud/"
             },
              {
                 desc: "KNEO IMPACT",
                 id: 6,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/KNEOGIN_IGMISARCH_v_0.png",
                 title: "KNEO IMPACT .",
                 url: "https://kneo-impact.cloud/"
             },
                  {
                 desc: "DEPLOY S",
                 id: 7,
-                image: "https://img1.wsimg.com/isteam/ip/5347598b-e052-4123-9c3b-e542f646b6b4/Kneogin%20Igmisarch%20Logo.jpg",
+                image: "https://siddh-kivtechs.github.io/kneogin_brand_asset/deploy-s.cloud.png",
                 title: "DEPLOY S .",
                 url: "https://deploy-s.cloud/"
             }
